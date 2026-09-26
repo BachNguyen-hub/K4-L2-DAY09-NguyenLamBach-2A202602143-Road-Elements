@@ -1,1 +1,16 @@
 sample_id,split,tags,reason
+narrow_t1_018,example,normal,Minh hoạ nhiều đèn xanh nhìn rõ và quy tắc một vỏ đèn một box
+narrow_t2_024,example,edge;critical,Minh hoạ đèn đỏ gần và các đầu đèn ở nhiều khoảng cách
+narrow_t2_100,example,normal,Minh hoạ trạng thái xanh rõ và cách ôm toàn bộ vỏ đèn
+narrow_t2_220,example,edge;critical;conflict,Minh hoạ đèn đỏ xuất hiện cùng mũi tên xanh trái cho hướng khác
+narrow_t2_259,example,edge;critical,Minh hoạ đèn đỏ và bộ đếm ngược phải vẽ thành hai object
+wide_t1_106,calibration,small_far,Kiểm tra khả năng phát hiện và box các đầu đèn nhỏ ở xa
+narrow_t1_160,calibration,edge;occlusion;conflict,Kiểm tra nhiều trạng thái và đầu đèn gần kết cấu cầu
+narrow_t1_234,calibration,occlusion;critical,Kiểm tra đèn bị phương tiện che khuất
+wide_t1_284,calibration,edge;conflict,Kiểm tra nhiều đầu đèn cho các hướng khác nhau
+wide_t2_080,calibration,negative;ambiguity,Kiểm tra quyết định không vẽ khi góc wide không cho thấy rõ mặt đèn
+wide_t2_121,blind,edge;occlusion,Kiểm tra đầu đèn khó quan sát do góc nhìn và ánh sáng
+narrow_t2_146,blind,normal,Kiểm tra trường hợp đèn xanh và bộ đếm nhìn tương đối rõ
+wide_t2_376,blind,edge;critical;conflict,Kiểm tra nhiều đầu đèn đỏ xanh thuộc các hướng khác nhau
+narrow_t2_382,blind,normal;critical,Kiểm tra nhận diện đèn đỏ rõ và bỏ qua mặt đèn không hợp lệ
+wide_t2_454,blind,edge;critical;ambiguity,Kiểm tra trạng thái khó phân biệt và nhiều đầu đèn trong cùng cảnh
