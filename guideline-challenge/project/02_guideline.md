@@ -1,5 +1,5 @@
 # Annotation Guideline — Traffic Light Detection
-
+**Version:** v3
 ## 1. Mục tiêu
 
 Gán nhãn **đèn tín hiệu giao thông dành cho phương tiện** và **trạng thái đang hiển thị** của chúng.

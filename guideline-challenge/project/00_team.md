@@ -3,8 +3,8 @@
 Điền trước phút 15. Thay mọi placeholder; còn sót thì `make status` báo ở gate G1.
 
 - **Team:** `team07`
-- **Nhóm peer test bài của mình:** TODO (cặp A ↔ B; số nhóm lẻ thì ring 3 nhóm A → B → C → A — Lab Coach công bố)
-- **Nhóm mình test bài của:** TODO
+- **Nhóm peer test bài của mình:** (cặp A ↔ B; số nhóm lẻ thì ring 3 nhóm A → B → C → A — Lab Coach công bố)
+- **Nhóm mình test bài của:** Nhóm 5
 - **Problem family:** Traffic-light state + ego relevance tại giao lộ nhiều đầu đèn
 - **Nguồn ảnh:** `images`
 
