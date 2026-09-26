@@ -1,1 +1,16 @@
 sample_id,split,tags,reason
+narrow_t1_018,example,normal,narrow camera daytime view
+narrow_t1_106,example,normal,narrow camera daytime view 2
+wide_t1_018,example,normal,wide camera daytime view
+wide_t1_106,example,normal,wide camera daytime view 2
+narrow_t1_160,calibration,normal,narrow camera intersection
+narrow_t1_234,calibration,edge,narrow camera traffic light sequence
+narrow_t1_284,calibration,edge,narrow camera traffic light dusk
+wide_t1_160,calibration,normal,wide camera intersection
+wide_t1_234,calibration,edge,wide camera traffic light sequence
+wide_t1_284,calibration,ambiguity,wide camera traffic light dusk
+narrow_t2_024,blind,normal;critical,narrow camera blind set 1
+narrow_t2_080,blind,edge;critical,narrow camera blind set 2
+narrow_t2_100,blind,edge,narrow camera blind set 3
+wide_t2_024,blind,critical;low_visibility,wide camera blind set 1
+wide_t2_080,blind,ambiguity;low_visibility,wide camera blind set 2

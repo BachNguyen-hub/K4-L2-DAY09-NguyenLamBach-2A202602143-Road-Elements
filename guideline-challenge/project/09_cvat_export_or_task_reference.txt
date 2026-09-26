@@ -1,8 +1,8 @@
-CVAT task reference — thay mọi placeholder mới là xong.
+CVAT task reference
 
-CVAT version: TODO
-Task calibration (tên, id): TODO
-Task bản cuối theo guideline v3 (tên, id) hoặc lý do không có: TODO
-File export đã nộp (đường dẫn trong repo): TODO
-Guideline version dán trong Guide của task: TODO
-Ghi chú cho người tiếp nhận: TODO
+CVAT version: v2.74.1
+Task calibration (tên, id): Day9-Road-Elements-Traffic-Lights (Task #80, Job #72)
+Task bản cuối theo guideline v3 (tên, id) hoặc lý do không có: Day9-Road-Elements-Traffic-Lights (Task #80)
+File export đã nộp (đường dẫn trong repo): project/07_blind_handoff/peer_output/job_72_pascal_voc_1.1.zip
+Guideline version dán trong Guide của task: v2
+Ghi chú cho người tiếp nhận: File gán nhãn Pascal VOC 1.1 đã được gán trực tiếp bởi người dùng trên Job 72 và đóng gói lưu trữ tại project/07_blind_handoff/peer_output/job_72_pascal_voc_1.1.zip.
