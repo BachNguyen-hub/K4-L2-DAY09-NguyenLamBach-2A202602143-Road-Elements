@@ -6,6 +6,8 @@ Gán nhãn **đèn tín hiệu giao thông dành cho phương tiện** và **tr�
 
 Mỗi ảnh được gán nhãn độc lập.
 
+![Minh họa Quy tắc Gán Nhãn Đèn Giao Thông](guideline_example.png)
+
 ---
 
 ## 2. Đối tượng cần gán nhãn
