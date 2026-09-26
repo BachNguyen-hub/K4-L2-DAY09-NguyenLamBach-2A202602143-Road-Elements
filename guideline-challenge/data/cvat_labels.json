@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Green",
+    "color": "#00C853",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Green-up",
+    "color": "#00E676",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Green-left",
+    "color": "#1DE9B6",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Green-right",
+    "color": "#64DD17",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Red",
+    "color": "#D50000",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Yellow",
+    "color": "#FFD600",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Red-Yellow",
+    "color": "#FF6D00",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Count-down",
+    "color": "#2979FF",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Empty",
+    "color": "#9E9E9E",
+    "type": "rectangle",
+    "attributes": []
+  },
+  {
+    "name": "Empty-count-down",
+    "color": "#616161",
+    "type": "rectangle",
+    "attributes": []
+  }
+]
