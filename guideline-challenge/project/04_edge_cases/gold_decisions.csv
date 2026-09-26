@@ -1,1 +1,13 @@
 sample_id,decision_id,expected,severity,rationale
+wide_t2_121,d1,label=Green x6,major,6 vo den xanh tron nhin ro; muc 5: xanh tron -> Green. Bo sot mot den dang sang la loi theo 01_problem_statement muc 3.
+wide_t2_121,d2,"geometry: box om vo den nhin thay, moi canh lech toi da 2px",minor,"Geometry tolerance da khai trong 01_problem_statement; muc 3 guideline: box om toan bo vo den nhin thay, khong du khoang trong."
+narrow_t2_146,d1,label=Green x4,major,4 vo den xanh tron; muc 5.
+narrow_t2_146,d2,label=Count-down x1,major,"Muc 3: bo dem nguoc la object rieng, box chi om phan hien so. Muc 10 liet ke 'quen annotate bo dem nguoc' la loi thuong gap."
+narrow_t2_146,d3,label=Empty x1,major,Muc 5: thay mat bong nhung khong bong nao sang -> Empty.
+wide_t2_376,d1,label=Red-Yellow x3,critical,Do va vang cung sang. Nham thanh Red la loi tin hieu dung/di theo 01_problem_statement muc 3; muc 10 cung liet ke 'nham Red-Yellow thanh Red'.
+wide_t2_376,d2,label=Green-right x2,critical,"Mui ten xanh huong phai. Nham voi Green tron la sai huong di chuyen, dung dinh nghia critical cua nhom."
+wide_t2_376,d3,label=Green x1,major,"1 den xanh tron, box 8x18px. Object nho nen de bi bo sot; muc 11 cau 1 bat kiem cac den o xa."
+narrow_t2_382,d1,label=Red x1,critical,Den do. Nham voi bat ky class Green* nao la loi dung/di theo 01_problem_statement muc 3.
+narrow_t2_382,d2,label=Green x1,major,"Den xanh o xa, box 13x35px."
+wide_t2_454,d1,label=Yellow x3,major,3 vo den vang tron dang sang; muc 5.
+wide_t2_454,d2,"geometry: box khong bao cot, can vuon hay gia do",minor,Muc 3 va muc 10: box lan cot/can/bien la khong dat.
