@@ -1,0 +1,13 @@
+sample_id,decision_id,expected,severity,kind,peer_evidence,correct,note
+wide_t2_121,d1,label=Green x6,major,decision,Green×6,1,Green x6 khop chinh xac.
+wide_t2_121,d2,"geometry: box om vo den nhin thay, moi canh lech toi da 2px",minor,geometry,Green×6,0,Ghep 6/6 box theo IoU (0.84-0.96) nhung 2 box vuot nguong 2px: lech canh 4.4px va 7.7px. Nguong 2px lay tu geometry tolerance trong 01_problem_statement.md.
+narrow_t2_146,d1,label=Green x4,major,decision,Count-down | Empty×3 | Green×4,1,Green x4 khop.
+narrow_t2_146,d2,label=Count-down x1,major,decision,Count-down | Empty×3 | Green×4,1,Count-down x1 khop; bo dem duoc tach thanh object rieng dung muc 3.
+narrow_t2_146,d3,label=Empty x1,major,decision,Count-down | Empty×3 | Green×4,0,"Gold 1 Empty, manh ve 3. Dung root cause voi 5/5 bat dong o calibration: muc 5 khong co nguong do duoc cho 'nhin thay mat bong'."
+wide_t2_376,d1,label=Red-Yellow x3,critical,decision,Count-down | Empty-count-down | Green | Green-right×2 | Red | Red-Yellow×2,0,"CRITICAL escape. Gold 3 Red-Yellow, manh chi 2 va doc 1 cai thanh Red. Muc 10 da liet ke 'nham Red-Yellow thanh Red' la loi thuong gap nhung van xay ra -> canh bao suong khong du, can vi du hinh."
+wide_t2_376,d2,label=Green-right x2,critical,decision,Count-down | Empty-count-down | Green | Green-right×2 | Red | Red-Yellow×2,1,Green-right x2 khop; rule mui ten o muc 6 chuyen giao duoc.
+wide_t2_376,d3,label=Green x1,major,decision,Count-down | Empty-count-down | Green | Green-right×2 | Red | Red-Yellow×2,1,Green x1 khop du box chi 8x18px.
+narrow_t2_382,d1,label=Red x1,critical,decision,Empty×2 | Red,1,"Red x1 khop, box lech ~2px so voi gold."
+narrow_t2_382,d2,label=Green x1,major,decision,Empty×2 | Red,0,Khong phai bo sot: manh ve box o DUNG vi tri gold (x600-614 y367-402 vs gold x600-613 y367-402) nhung dat class Empty thay vi Green. Den 13x35px. Lai la nguong Empty.
+wide_t2_454,d1,label=Yellow x3,major,decision,Empty | Red-Yellow | Yellow×3,1,"gold sai: dem khop nhung khong dung thuc chat. Gold ghi 'label=Yellow x3', manh cung co Yellow x3 nen theo dung chu cua gold la dat. Nhung doi chieu toa do: chi 1/3 box Yellow cua manh nam o vi tri gold; 2 box gold con lai manh doc thanh Red-Yellow (x903) va Empty (x1035), va manh them 2 box Yellow nho 8x17px, 6x17px o cho gold khong co. Gold viet theo so luong nen khong bat duoc sai lech vi tri - day la loi thiet ke gold, phai sua o v4 thanh dang 'label=Yellow x3 tai 3 dau den ben phai'."
+wide_t2_454,d2,"geometry: box khong bao cot, can vuon hay gia do",minor,geometry,Empty | Red-Yellow | Yellow×3,1,"Ghep 3/3 box, lech canh lon nhat 1.6px, khong box nao lan cot/can/gia do."
