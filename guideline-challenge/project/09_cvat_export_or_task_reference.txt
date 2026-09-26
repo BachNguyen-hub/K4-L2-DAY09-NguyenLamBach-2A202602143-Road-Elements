@@ -3,6 +3,6 @@ CVAT task reference
 CVAT version: v2.74.1
 Task calibration (tên, id): Day9-Road-Elements-Traffic-Lights (Task #80, Job #72)
 Task bản cuối theo guideline v3 (tên, id) hoặc lý do không có: Day9-Road-Elements-Traffic-Lights (Task #80)
-File export đã nộp (đường dẫn trong repo): project/07_blind_handoff/peer_output/job_72_pascal_voc_1.1.zip
-Guideline version dán trong Guide của task: v2
-Ghi chú cho người tiếp nhận: File gán nhãn Pascal VOC 1.1 đã được gán trực tiếp bởi người dùng trên Job 72 và đóng gói lưu trữ tại project/07_blind_handoff/peer_output/job_72_pascal_voc_1.1.zip.
+File export đã nộp (đường dẫn trong repo): project/06_calibration_exports/gt.zip, project/06_calibration_exports/manh.zip
+Guideline version dán trong Guide của task: v3
+Ghi chú cho người tiếp nhận: Job 72 chứa bài gán nhãn của annotator 2 trong nhóm (calibration), KHÔNG phải bài của nhóm peer. Bản Pascal VOC đã được chuyển sang CVAT for images 1.1 và lưu ở project/06_calibration_exports/manh.zip; annotator 1 ở gt.zip. Thư mục 07_blind_handoff/peer_output/ để trống cho tới khi nhận bài thật của nhóm peer.
